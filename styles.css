@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.hero {
+  background-color: #1F2937;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  height: 300 px;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.links {
+  font-size: 18px;
+  color: #E5E7EB;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.link,
+.link:visited,
+.link:hover,
+.link:focus,
+.link:active {
+  text-decoration: none; 
+  text-decoration: none;
+  color: #E5E7EB;
+}
