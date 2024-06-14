@@ -4,6 +4,9 @@
   font-family:Arial, Helvetica, sans-serif;
 }
 
+body {
+  min-width: 940px;
+}
 .hero {
   background-color: #1F2937;
   display: flex;
@@ -120,7 +123,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 751px;
 }
 
 .quote {
@@ -128,12 +130,14 @@
   color: #1F2937;
   font-weight: light;
   width: 60%;
+  min-width: 751px;
 }
 
 .quoted {
   align-self: flex-end;
   font-size: 24px;
   margin: 10px 20%;
+  min-width: 255px;
 }
 
 .section-4 {
@@ -169,4 +173,13 @@
   border-color: #F9FAF8;
   border-style: solid;
   align-self: center;
+}
+
+.footer {
+  background-color: #1F2937;
+  text-align: center;
+  color: #F9FAF8;
+  padding: 30px;
+  font-weight: 100;
+  font-size: 14px;
 }
