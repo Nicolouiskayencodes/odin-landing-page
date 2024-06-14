@@ -109,3 +109,25 @@
   margin: 20px;
   margin-bottom: 100px;
 }
+
+.section-3 {
+  background-color: #E5E7EB;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: light;
+  width: 60%;
+}
+
+.quoted {
+  align-self: flex-end;
+  font-size: 24px;
+  margin: 10px 20%;
+}
