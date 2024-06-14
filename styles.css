@@ -17,6 +17,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  min-width: 600px;
 }
 
 .logo {
@@ -49,6 +50,7 @@
   gap: 10px;
   align-items: center;
   justify-content: center;
+  min-width: 800px;
 }
 
 .left-side {
@@ -78,6 +80,7 @@
   color: #F9FAF8;
   padding: 10px 20px;
   border-radius: 5px;
+  flex-shrink: 0;
 }
 
 .h2 {
@@ -117,6 +120,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-width: 751px;
 }
 
 .quote {
@@ -130,4 +134,39 @@
   align-self: flex-end;
   font-size: 24px;
   margin: 10px 20%;
+}
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3882F6;
+  border-radius: 10px;
+  padding: 50px;
+  color: #F9FAF8;
+  width: 70%;
+  min-width: 470px;
+}
+
+.itstime {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.signuptext {
+  font-weight: 100;
+  margin: 10px 0px;
+}
+
+.signup2 {
+  border: 1px;
+  border-color: #F9FAF8;
+  border-style: solid;
+  align-self: center;
 }
