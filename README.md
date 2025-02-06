@@ -1,4 +1,5 @@
 # odin-landing-page
+Live preview: https://nicolouiskayencodes.github.io/odin-landing-page/
 Homepage styling from scratch
 https://www.theodinproject.com/lessons/foundations-landing-page
 
